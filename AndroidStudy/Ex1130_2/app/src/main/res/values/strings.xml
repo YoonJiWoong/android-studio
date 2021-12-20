@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ex1130_2</string>
+    <string-array name="item">
+        <!-- string 소문자!! -->
+        <item> 1.Andorid 재밌음 </item>
+        <item> 2. 어려움~~ </item>
+        <item> 3. 잠와~ </item>
+        <item> 4. 집가자~ </item>
+    </string-array>
+
+
+</resources>

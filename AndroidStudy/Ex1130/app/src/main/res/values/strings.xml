@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ex1130</string>
+    <!-- 이게 주석이예요~ -->
+    <string-array name="item">
+        <!-- string 소문자!! -->
+        <item> 다크그린 </item>
+        <item> 노란색 </item>
+        <item> 베이지 </item>
+    </string-array>
+
+
+</resources>

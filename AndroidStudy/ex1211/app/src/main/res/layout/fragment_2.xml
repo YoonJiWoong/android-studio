@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1ECC5"
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영혼의입맛찾기"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/rg1"
+        app:layout_constraintEnd_toEndOf="@+id/rg1"
+        app:layout_constraintStart_toStartOf="@+id/rg1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297">
+
+        <RadioButton
+            android:id="@+id/rg1_rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="민트초코"
+            android:textColor="#FA0303"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/rg1_rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="반민초"
+            android:textColor="#FA0303"
+            android:textSize="34sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg1"
+        app:layout_constraintVertical_bias="0.13999999">
+
+        <RadioButton
+            android:id="@+id/rg2_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="부먹"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/rg2_rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="찍먹"
+            android:textSize="34sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과확인"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rg2"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/rg2"
+        app:layout_constraintTop_toBottomOf="@+id/rg2"
+        app:layout_constraintVertical_bias="0.25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
